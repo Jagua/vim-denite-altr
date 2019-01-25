@@ -1,0 +1,24 @@
+# vim-denite-altr
+
+*vim-denite-altr* is a Vim plugin. This plugin is a source for *denite.nvim* to deal with *vim-altr*.
+
+This plugin depends on:
+
+* [vim-altr](https://github.com/kana/vim-altr)
+* [denite.vim](https://github.com/Shougo/denite.nvim)
+
+Latest: https://github.com/Jagua/vim-denite-altr
+
+
+## Key mappings
+
+```vim
+" prefix for Denite
+nnoremap [denite] <Nop>
+nmap <Space>d [denite]
+
+" for vim-denite-altr
+nnoremap [denite]al :<C-u>Denite altr<CR>
+```
+
+Typing `<Space>dal`, starts *vim-denite-altr*.
